@@ -1,0 +1,15 @@
+/*
+ Theme Name:   Bydoktor Editor Child
+ Theme URI:    https://github.com/bGraphic/bydoktor-editor-child
+ Description:  Editor child theme created for Erling Fossen
+ Author:       Benedicte Raae
+ Author URI:   http://bgraphic.no
+ Template:     editor
+ Version:      0.1.1
+ Text Domain:  bydoktor-editor-child
+*/
+
+@import url("../editor/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
