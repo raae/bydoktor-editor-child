@@ -54,18 +54,18 @@
   -webkit-font-smoothing: antialiased;
 }
 
-#social-navigation a[href^="http://facebook"]:before {
+#social-navigation a[href*="facebook"]:before {
   content: " b";
 }
 
-#social-navigation a[href^="http://twitter"]:before {
+#social-navigation a[href*="twitter"]:before {
   content: "a";
 }
 
-#social-navigation a[href^="http://instagram"]:before {
+#social-navigation a[href*="instagram"]:before {
   content: "x";
 }
 
-#social-navigation a[href^="http://linkedin"]:before {
+#social-navigation a[href*="linkedin"]:before {
   content: "j";
 }
