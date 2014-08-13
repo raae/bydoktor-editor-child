@@ -13,3 +13,16 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+@media screen and (min-width: 783px) {
+  .site-header {
+    width: 240px;
+    padding: 90px 30px 2% 30px;
+  }
+
+  #content {
+    margin-left: 240px;
+    width: auto;
+    padding-left: 6%;
+  }
+}
