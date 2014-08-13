@@ -26,3 +26,46 @@
     padding-left: 6%;
   }
 }
+
+/* Social icons */
+
+@font-face {
+    font-family: 'socicon';
+    src: url('font/socicon-webfont.eot');
+    src: url('font/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/socicon-webfont.woff') format('woff'),
+         url('font/socicon-webfont.ttf') format('truetype'),
+         url('font/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#social-navigation a[href^="http://facebook"]:before,
+#social-navigation a[href^="http://twitter"]:before,
+#social-navigation a[href^="http://instagram"]:before,
+#social-navigation a[href^="http://linkedin"]:before {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+#social-navigation a[href^="http://facebook"]:before {
+  content: " b";
+}
+
+#social-navigation a[href^="http://twitter"]:before {
+  content: "a";
+}
+
+#social-navigation a[href^="http://instagram"]:before {
+  content: "x";
+}
+
+#social-navigation a[href^="http://linkedin"]:before {
+  content: "j";
+}
